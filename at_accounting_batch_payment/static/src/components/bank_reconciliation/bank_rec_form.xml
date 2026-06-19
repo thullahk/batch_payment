@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="at_accounting_batch_payment.BankRecRecordNotebookBatchPayments">
+        <div class="bank_rec_widget_form_batch_payments_list_anchor" t-if="this.state.bankRecEmbeddedViewsData">
+            <BankRecViewEmbedder viewProps="this.notebookBatchPaymentsListViewProps()" t-key="data.st_line_id[0]"/>
+        </div>
+    </t>
+
+    <t t-name="at_accounting_batch_payment.BankRecRecordForm" t-inherit="at_accounting.BankRecRecordForm" t-inherit-mode="extension">
+        <xpath expr="//t[@t-set-slot='amls_tab']" position="after">
+            <t t-set-slot="batch_payments_tab"
+               name="'batch_payments_tab'"
+               title.translate="Batch Payments"
+               isVisible="['valid', 'invalid'].includes(data.state)">
+                <t t-call="at_accounting_batch_payment.BankRecRecordNotebookBatchPayments"/>
+            </t>
+        </xpath>
+    </t>
+
+    <t t-name="at_accounting_batch_payment.BankRecRecordFormLineIds" t-inherit="at_accounting.BankRecRecordFormLineIds" t-inherit-mode="extension">
+        <!-- Hijack the Account column for batch payments to show 'Includes X payment(s)' -->
+        <xpath expr="//td[@field='account_id'] | //t[@t-if=&quot;column[0] === 'account'&quot;]/td" position="replace">
+            <t t-if="line.data.flag === 'batch_payment'">
+                <td class="o_data_cell o_field_cell o_list_many2one"
+                    t-att-class="{'o_invalid_cell': invalidFields.includes('account_id')}"
+                    field="account_id">
+                    <span t-out="line.data.name"/>
+                </td>
+            </t>
+            <t t-else="">$0</t>
+        </xpath>
+
+        <!-- Show Batch Name in the second line and hide the 'Includes...' text there -->
+        <xpath expr="//td[@field='name'] | //t[@t-if=&quot;column[0] === 'name'&quot;]/td" position="replace">
+            <t t-if="line.data.flag === 'batch_payment'">
+                <td t-att-colspan="line_ids_columns.length - (display_currency_columns ? 5 : 3) + (hasGroupReadOnly ? 0 : 1)"
+                    class="o_data_cell o_field_cell o_list_char text-wrap fw-normal"
+                    field="name">
+                    <span class="o_form_uri fst-italic"
+                          t-out="line.data.source_aml_move_name"
+                          t-on-click="() => this.actionRedirectToBatchPayment(line)"/>
+                </td>
+            </t>
+            <t t-else="">$0</t>
+        </xpath>
+    </t>
+</templates>

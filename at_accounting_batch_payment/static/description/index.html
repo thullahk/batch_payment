@@ -1,0 +1,214 @@
+<section class="container" style="font-family: 'Inter', 'Segoe UI', sans-serif; max-width: 900px; margin: 0 auto;">
+
+    <!-- Hero Section -->
+    <div class="row mt-5">
+        <div class="col-12 text-center">
+            <h1 class="display-4 font-weight-bold" style="color: #0d1b2a; font-size: 2.4rem;">Batch Payment for Community</h1>
+            <p class="lead mt-3 mb-2" style="color: #415a77; font-size: 1.15rem; line-height: 1.7;">
+                Bring <strong>Enterprise-grade Batch Payment</strong> functionality to Odoo 18 Community Edition.
+                Group payments, reconcile in one click, and streamline your bank operations — all without upgrading.
+            </p>
+            <span class="badge p-2 px-3 mt-2" style="background-color: #2ec4b6; color: #fff; font-size: 0.95rem; border-radius: 20px;">✓ 100% Free &amp; Open Source (LGPL-3)</span>
+        </div>
+    </div>
+
+    <!-- Banner Image -->
+    <div class="row mt-4 mb-5">
+        <div class="col-12 text-center">
+            <img src="banner.png" alt="Batch Payment for Community Banner" class="img-fluid rounded shadow-lg" style="border-radius: 12px;"/>
+        </div>
+    </div>
+
+    <!-- Why This Module -->
+    <div class="row mt-5 mb-4">
+        <div class="col-12 text-center">
+            <h2 class="font-weight-bold" style="color: #1b263b;">Why This Module?</h2>
+            <hr style="width: 50px; border-top: 3px solid #2ec4b6; margin: 15px auto;"/>
+            <p class="text-muted" style="font-size: 1.05rem; max-width: 700px; margin: 0 auto;">
+                In Odoo Enterprise, Batch Payments let you group multiple customer receipts or vendor payments into a single bank deposit.
+                This module brings that <strong>exact same power</strong> to Community users running AT Accounting.
+            </p>
+        </div>
+    </div>
+
+    <!-- Value Proposition Cards -->
+    <div class="row mt-4 mb-5">
+        <div class="col-md-4 mb-3 text-center">
+            <div class="p-4 rounded shadow-sm h-100" style="background-color: #f0f7f4; border: 1px solid #d4edda; border-radius: 12px;">
+                <h1 style="font-size: 2.5rem;">📦</h1>
+                <h5 class="font-weight-bold mt-2" style="color: #1b263b;">Group Payments</h5>
+                <p class="text-muted" style="font-size: 0.95rem;">Bundle cheques, transfers, or receipts into a single batch before depositing to the bank.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3 text-center">
+            <div class="p-4 rounded shadow-sm h-100" style="background-color: #eef6ff; border: 1px solid #cce0ff; border-radius: 12px;">
+                <h1 style="font-size: 2.5rem;">🏦</h1>
+                <h5 class="font-weight-bold mt-2" style="color: #1b263b;">One-Click Reconcile</h5>
+                <p class="text-muted" style="font-size: 0.95rem;">Match entire batches against bank statement lines directly from the reconciliation widget.</p>
+            </div>
+        </div>
+        <div class="col-md-4 mb-3 text-center">
+            <div class="p-4 rounded shadow-sm h-100" style="background-color: #fef5e7; border: 1px solid #fde2b3; border-radius: 12px;">
+                <h1 style="font-size: 2.5rem;">⚡</h1>
+                <h5 class="font-weight-bold mt-2" style="color: #1b263b;">Zero Cost</h5>
+                <p class="text-muted" style="font-size: 0.95rem;">Enterprise-level feature, completely free. LGPL-3 licensed, no hidden charges.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ FEATURE 1: Batch Payment Form ============ -->
+    <div class="row mt-5 mb-4">
+        <div class="col-12 text-center">
+            <h2 class="font-weight-bold" style="color: #1b263b;">Core Features</h2>
+            <hr style="width: 50px; border-top: 3px solid #415a77; margin: 15px auto;"/>
+        </div>
+    </div>
+
+    <div class="row align-items-center mb-5">
+        <div class="col-md-6 mb-4">
+            <h3 class="font-weight-bold" style="color: #1b263b;">📝 Batch Payment Management</h3>
+            <p class="text-muted mt-3" style="font-size: 1.05rem; line-height: 1.7;">
+                Create and manage <strong>Inbound</strong> (customer receipts) and <strong>Outbound</strong> (vendor payments) batches with a clean, professional form view:
+            </p>
+            <ul class="text-muted" style="font-size: 1.05rem; line-height: 1.8;">
+                <li><strong>Auto-generated References</strong> — Sequence-based naming (BATCH/IN/2024/0001)</li>
+                <li><strong>Payment Method Control</strong> — Filter payments by method and journal</li>
+                <li><strong>Status Workflow</strong> — Track batches through New → Sent → Reconciled</li>
+                <li><strong>Validation Wizard</strong> — Catches errors before submission</li>
+                <li><strong>Chatter Integration</strong> — Full audit trail on every batch</li>
+            </ul>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="feature_batch_creation.png" alt="Batch Payment Creation Form" class="img-fluid rounded shadow" style="border-radius: 12px;"/>
+        </div>
+    </div>
+
+    <!-- ============ FEATURE 2: Bank Reconciliation Tab ============ -->
+    <div class="row align-items-center mb-5 flex-md-row-reverse">
+        <div class="col-md-6 mb-4 pl-md-5">
+            <h3 class="font-weight-bold" style="color: #1b263b;">🏦 Bank Reconciliation Integration</h3>
+            <p class="text-muted mt-3" style="font-size: 1.05rem; line-height: 1.7;">
+                The crown jewel of this module — a dedicated <strong>"Batch Payments" tab</strong> inside the AT Accounting bank reconciliation widget:
+            </p>
+            <ul class="text-muted" style="font-size: 1.05rem; line-height: 1.8;">
+                <li><strong>Click-to-Match</strong> — Select a batch to instantly match all its payments against a bank statement line</li>
+                <li><strong>Visual Grouping</strong> — Shows "Includes X payment(s)" for clear summary</li>
+                <li><strong>Smart Unpacking</strong> — Automatically expands batch into individual journal items during validation</li>
+                <li><strong>Quick Navigation</strong> — Click batch name to jump directly to the batch record</li>
+                <li><strong>Search &amp; Filter</strong> — Filter batches by bank, type, date, and reconciliation status</li>
+            </ul>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="feature_reconciliation.png" alt="Bank Reconciliation with Batch Payments" class="img-fluid rounded shadow" style="border-radius: 12px;"/>
+        </div>
+    </div>
+
+    <!-- ============ FEATURE 3: List View & Workflow ============ -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-6 mb-4">
+            <h3 class="font-weight-bold" style="color: #1b263b;">📊 Complete Batch Lifecycle</h3>
+            <p class="text-muted mt-3" style="font-size: 1.05rem; line-height: 1.7;">
+                Manage all your batches from a clear, organized list view with full status tracking:
+            </p>
+            <ul class="text-muted" style="font-size: 1.05rem; line-height: 1.8;">
+                <li><strong>Color-Coded Status</strong> — Instantly see New (blue), Sent (gray), Reconciled (green)</li>
+                <li><strong>Separate Menus</strong> — Customer Batch Payments &amp; Vendor Batch Payments under Accounting</li>
+                <li><strong>Activity Tracking</strong> — Schedule follow-ups and reminders directly on batches</li>
+                <li><strong>Print &amp; Export</strong> — Generate batch payment reports for bank submission</li>
+                <li><strong>Multi-Currency</strong> — Full support for batches with different currencies</li>
+            </ul>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="feature_list_view.png" alt="Batch Payment List View" class="img-fluid rounded shadow" style="border-radius: 12px;"/>
+        </div>
+    </div>
+
+    <!-- ============ FEATURE 4: Additional Highlights ============ -->
+    <div class="row mt-4 mb-5">
+        <div class="col-12">
+            <div class="p-4 rounded shadow-sm" style="background-color: #f8f9fa; border: 1px solid #e9ecef; border-radius: 12px;">
+                <h4 class="font-weight-bold text-center mb-4" style="color: #1b263b;">Additional Highlights</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled" style="font-size: 1.05rem; line-height: 2;">
+                            <li>✅ <strong>One-Click Batch from Kanban</strong> — Select payments → Create batch instantly</li>
+                            <li>✅ <strong>Draft Auto-Posting</strong> — Draft payments are automatically posted when batch is validated</li>
+                            <li>✅ <strong>Duplicate Detection</strong> — Prevents same payment from appearing in multiple batches</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled" style="font-size: 1.05rem; line-height: 2;">
+                            <li>✅ <strong>SEPA Ready</strong> — Hooks for SEPA credit transfer file generation</li>
+                            <li>✅ <strong>Residual Amount Tracking</strong> — Real-time computation of outstanding batch amounts</li>
+                            <li>✅ <strong>Security &amp; Access Control</strong> — Proper access rights and record rules</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <div class="row mt-5 mb-5 p-5 text-white shadow-lg" style="background: linear-gradient(135deg, #1b263b 0%, #415a77 100%); border-radius: 12px;">
+        <div class="col-12 text-center">
+            <h3 class="font-weight-bold mb-4">How It Works</h3>
+            <div class="row text-center mt-4">
+                <div class="col-md-3 mb-3">
+                    <h1 class="display-4">1️⃣</h1>
+                    <h5 class="font-weight-bold mt-2">Register Payments</h5>
+                    <p class="text-light" style="font-size: 0.95rem;">Record individual customer receipts or vendor payments as usual.</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h1 class="display-4">2️⃣</h1>
+                    <h5 class="font-weight-bold mt-2">Create Batch</h5>
+                    <p class="text-light" style="font-size: 0.95rem;">Group payments into a batch — matching what you deposit at the bank.</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h1 class="display-4">3️⃣</h1>
+                    <h5 class="font-weight-bold mt-2">Validate &amp; Send</h5>
+                    <p class="text-light" style="font-size: 0.95rem;">Validate the batch. Payments marked as sent. Print or export for the bank.</p>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h1 class="display-4">4️⃣</h1>
+                    <h5 class="font-weight-bold mt-2">Reconcile</h5>
+                    <p class="text-light" style="font-size: 0.95rem;">In bank reconciliation, match the batch in one click — done!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ TECHNICAL DETAILS ============ -->
+    <div class="row mt-4 mb-5">
+        <div class="col-12">
+            <div class="p-4 rounded" style="background-color: #fff; border: 1px solid #e9ecef; border-radius: 12px;">
+                <h4 class="font-weight-bold mb-3" style="color: #1b263b;">Technical Details</h4>
+                <table class="table table-sm table-borderless" style="font-size: 1rem;">
+                    <tbody>
+                        <tr><td style="width: 200px;"><strong>Technical Name</strong></td><td>at_accounting_batch_payment</td></tr>
+                        <tr><td><strong>Version</strong></td><td>18.0.1.0.0</td></tr>
+                        <tr><td><strong>License</strong></td><td>LGPL-3 (Free &amp; Open Source)</td></tr>
+                        <tr><td><strong>Odoo Version</strong></td><td>18.0</td></tr>
+                        <tr><td><strong>Dependencies</strong></td><td>AT Accounting, Batch Payment (base)</td></tr>
+                        <tr><td><strong>Auto Install</strong></td><td>Yes — installs automatically when both dependencies are present</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ SUPPORT ============ -->
+    <div class="row mt-5 mb-5 border-top pt-5">
+        <div class="col-12 text-center">
+            <h4 class="font-weight-bold" style="color: #1b263b;">Need Support or Customization?</h4>
+            <p class="text-muted mt-2" style="font-size: 1.05rem;">
+                Our team at <strong>Digitz Technologies</strong> specializes in Odoo ERP solutions.
+                We're ready to help you customize, integrate, and optimize your accounting workflows.
+            </p>
+            <a href="mailto:support@digitz.ae" class="btn btn-primary btn-lg mt-3 px-5 py-3 shadow" style="border-radius: 30px; font-weight: 600; background-color: #0d1b2a; border: none;">Contact Support</a>
+            <p class="text-muted mt-3" style="font-size: 0.9rem;">
+                📧 support@digitz.ae &nbsp;|&nbsp; 🌐 <a href="https://digitz.ae" style="color: #415a77;">digitz.ae</a>
+            </p>
+        </div>
+    </div>
+
+</section>
