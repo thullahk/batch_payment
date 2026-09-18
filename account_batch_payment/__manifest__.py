@@ -28,7 +28,7 @@ When you reconcile, simply select the corresponding batch payment to reconcile a
         'wizard/create_batch_error_views.xml',
     ],
     'installable': True,
-    'author': 'Odoo S.A.',
+    'author': 'Rahmathullah',
     'license': 'OEEL-1',
     'assets': {
         'web.report_assets_common': [

@@ -1,16 +1,17 @@
 {
-    'name': 'Batch Payment for Community',
+    'name': 'Full Accounting of Odoo 18 for Community',
     'version': '18.0.1.0.0',
     'category': 'Accounting/Accounting',
-    'summary': 'Enterprise-grade Batch Payment & Bank Reconciliation for Odoo Community Accounting.',
+    'summary': 'Full Accounting automated options and enterprise-grade Batch Payment for Odoo 18 Community.',
     'description': """
-Batch Payment for Community
-============================
+Full Accounting of Odoo 18 for Community
+========================================
 
-Bring Enterprise-level Batch Payment functionality to Odoo 18 Community Edition with AT Accounting.
+Bring the full features of Odoo Enterprise Accounting, along with Batch Payment functionality, to Odoo 18 Community Edition.
 
 **Key Features:**
 
+* **Full Accounting Options** – Enterprise-level automated accounting functionalities available directly in Community.
 * **Batch Payment Management** – Create, validate, and track inbound & outbound batch payments with a full lifecycle workflow (New → Sent → Reconciled).
 * **Bank Reconciliation Integration** – A dedicated "Batch Payments" tab inside the bank reconciliation widget lets you match entire batches against bank statement lines in one click.
 * **Smart Unpacking** – During reconciliation validation, batch lines are automatically expanded into individual journal items for accurate accounting entries.
@@ -23,15 +24,14 @@ Bring Enterprise-level Batch Payment functionality to Odoo 18 Community Edition 
 
 **Who is it for?**
 
-Odoo Community users who need to group cheque deposits, vendor payments, or customer receipts
-into single bank transactions — without upgrading to Enterprise.
+Odoo Community users who need full enterprise-grade accounting features and the ability to group cheque deposits, vendor payments, or customer receipts into single bank transactions — without upgrading to Enterprise.
 
 **Requirements:**
 
 * Odoo 18 Community Edition
 * AT Accounting (Community Accounting module)
     """,
-    'author': 'Digitz Technologies',
+    'author': 'Rahmathullah K/Digitz Technologies',
     'website': 'https://digitz.ae',
     'support': 'support@digitz.ae',
     'depends': ['at_accounting', 'account_batch_payment'],

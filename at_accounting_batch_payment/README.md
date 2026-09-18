@@ -1,6 +1,6 @@
-# Batch Payment for Community
+# Full Accounting of Odoo 18 for Community
 
-**Enterprise-grade Batch Payment & Bank Reconciliation for Odoo 18 Community Edition**
+**Full Features of Odoo Enterprise Accounting & Batch Payment for Odoo 18 Community Edition**
 
 [![License: LGPL-3](https://img.shields.io/badge/License-LGPL--3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 [![Odoo Version](https://img.shields.io/badge/Odoo-18.0-purple.svg)](https://www.odoo.com)
@@ -9,7 +9,7 @@
 
 ## Overview
 
-This module brings the powerful **Batch Payment** functionality — traditionally available only in Odoo Enterprise — to the Community Edition. It integrates seamlessly with **AT Accounting** to provide full batch payment management and bank reconciliation capabilities.
+This module brings the powerful **Full Accounting** automated options and **Batch Payment** functionality — traditionally available only in Odoo Enterprise — to the Community Edition. It integrates seamlessly with **AT Accounting** to provide the full array of enterprise accounting features, including comprehensive batch payment management and bank reconciliation capabilities.
 
 ## Features
 
