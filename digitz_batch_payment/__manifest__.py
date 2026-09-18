@@ -29,7 +29,7 @@ When you reconcile, simply select the corresponding batch payment to reconcile a
     ],
     'installable': True,
     'author': 'Rahmathullah',
-    'license': 'OEEL-1',
+    'license': 'OPL-1',
     'assets': {
         'web.report_assets_common': [
             'digitz_batch_payment/static/src/scss/**/*',
