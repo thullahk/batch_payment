@@ -34,5 +34,6 @@ When you reconcile, simply select the corresponding batch payment to reconcile a
         'web.report_assets_common': [
             'digitz_batch_payment/static/src/scss/**/*',
         ],
-    }
+    },
+    'images': ['static/description/banner.png'],
 }
