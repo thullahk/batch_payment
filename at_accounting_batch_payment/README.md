@@ -44,7 +44,7 @@ This module brings the powerful **Full Accounting** automated options and **Batc
 | Module | Description |
 |--------|-------------|
 | `at_accounting` | AT Accounting (Community Accounting) |
-| `account_batch_payment` | Base Batch Payment module |
+| `digitz_batch_payment` | Base Batch Payment module |
 
 ## Installation
 
