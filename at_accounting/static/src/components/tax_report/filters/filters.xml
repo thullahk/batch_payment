@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<templates>
-    <t t-name="at_accounting.GenericTaxReportFiltersCustomizable" t-inherit="at_accounting.AccountReportFiltersCustomizable">
-        <xpath expr="//div[@id='filter_date']/t[@t-call]" position="replace">
-            <t t-call="at_accounting.TaxReportFilterDate"/>
-        </xpath>
-    </t>
-</templates>

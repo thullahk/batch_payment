@@ -34,9 +34,9 @@ Odoo Community users who need full enterprise-grade accounting features and the 
     'author': 'Rahmathullah K/Digitz Technologies',
     'website': 'https://digitz.ae',
     'support': 'support@digitz.ae',
-    'depends': ['at_accounting', 'account_batch_payment'],
+    'depends': ['at_accounting', 'digitz_batch_payment'],
     'data': [
-        'views/account_batch_payment_views.xml',
+        'views/digitz_batch_payment_views.xml',
     ],
     'assets': {
         'web.assets_backend': [
