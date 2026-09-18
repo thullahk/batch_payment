@@ -40,12 +40,9 @@ Empower Your Finance Team
 This module provides your team with the information they need, right where they need it. Reduce manual work, eliminate errors, and give your accountants the tools they need to perform at their best.
     """,
     'icon': '/at_accounting/static/description/icon.png',
-    'author': 'AccountTechs Software Solutions',
-    'website': 'https://account-techs.com',
-    'support': 'info@account-techs.com',
-    'eula': 'https://account-techs.com/licenses/opl-1-at_accounting.txt',
-    'maintainer': 'AccountTechs Software Solutions',
-    'live_test_url': 'https://demo.account-techs.com',
+    'author': 'Rahmathullah',
+    'website': '',
+    'support': 'lapxortia@gmail.com',
     'depends': ['account','web_tour', 'stock_account', 'base_import'],
     'data': [
         'data/ir_cron.xml',
